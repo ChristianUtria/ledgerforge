@@ -22,7 +22,3 @@ generador (C) ──► transacciones.dat ──► saldos (COBOL) ──► sal
     ./build/generador 100000   # más transacciones
     make clean
 
-## Ideas para seguir
-- Versión SIMD (SSE2/AVX2) del Adler-32 en ensamblador
-- Reglas de negocio en COBOL (sobregiro, comisiones, cierre mensual)
-- Leer transacciones con `mmap` en C++
